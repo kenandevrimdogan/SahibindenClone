@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Domain", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Core", "src\SahibindenClone.Core\SahibindenClone.Core.csproj", "{72E69806-F6ED-4961-A549-FD217FF61BFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Domain.Repository", "src\SahibindenClone.Domain.Repository\SahibindenClone.Domain.Repository.csproj", "{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
 		{72E69806-F6ED-4961-A549-FD217FF61BFF} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
+		{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CA9E63-4239-4721-9E0E-5BB8F76C36E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

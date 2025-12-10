@@ -8,9 +8,8 @@ public interface IUnitOfWork : IDisposable
     IRepository<TEntity> Repository<TEntity>() where TEntity : BaseEntity;
         
     // Transaction Methods
-    Task<int> SaveChangesAsync();
-    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
-    Task BeginTransactionAsync();
-    Task CommitTransactionAsync();
-    Task RollbackTransactionAsync();
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+    Task BeginTransactionAsync(CancellationToken cancellationToken = default);
+    Task CommitTransactionAsync(CancellationToken cancellationToken = default);
+    Task RollbackTransactionAsync(CancellationToken cancellationToken = default);
 }

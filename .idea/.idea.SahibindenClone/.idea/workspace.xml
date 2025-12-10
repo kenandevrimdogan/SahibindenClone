@@ -8,7 +8,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d003daa-272a-4e5c-973d-4ce416c50dd1" name="Changes" comment="" />
+    <list default="true" id="1d003daa-272a-4e5c-973d-4ce416c50dd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ICategoryRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IFavoriteRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IImageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IListingPropertyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IListingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ILocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IMessageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IPackageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IPropertyDefinitionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IReportRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ISavedSearchRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IUserPackageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/CategoryRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/FavoriteRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/ImageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/ListingPropertyRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/ListingRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/LocationRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/MessageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/PackageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/PropertyDefinitionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/ReportRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/SavedSearchRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/UserPackageRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Impl/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SahibindenClone/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SahibindenClone/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SahibindenClone.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SahibindenClone.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/Repository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SahibindenClone.Domain/AppDbContext/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/AppDbContext/ApplicationDbContext.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,11 +64,21 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Abstraction/IUnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/Repository.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Core/Repositories/Impl/UnitOfWork.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain/AppDbContext/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/kenandogan/RiderProjects/SahibindenClone/src/SahibindenClone.Core/Repositories/Abstraction/IRepository.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/AppDbContext/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ICategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IFavoriteRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IImageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IListingPropertyRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IListingRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ILocationRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IMessageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IPackageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IPropertyDefinitionRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IReportRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/ISavedSearchRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IUserPackageRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain.Repository/Repositories/Abstraction/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain/Common/AuditableEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain/Common/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain/Entities/Category.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,6 +114,9 @@
     <setting file="file://$PROJECT_DIR$/src/SahibindenClone.Domain/Enums/VerificationStatus.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -136,6 +183,9 @@
       <option name="presentableId" value="Default" />
       <updated>1765397550596</updated>
       <workItem from="1765397552357" duration="3888000" />
+      <workItem from="1765401556389" duration="1251000" />
+      <workItem from="1765402831453" duration="101000" />
+      <workItem from="1765402935837" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="init: init project">
       <option name="closed" value="true" />
@@ -161,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765401371523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="chore: SahibindenClone.Core updated">
+      <option name="closed" value="true" />
+      <created>1765401693392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765401693392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +243,8 @@
     <MESSAGE value="init: init project" />
     <MESSAGE value="chore: readme.md updated" />
     <MESSAGE value="chore: added gitigonre" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: added gitigonre" />
+    <MESSAGE value="chore: SahibindenClone.Core updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: SahibindenClone.Core updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

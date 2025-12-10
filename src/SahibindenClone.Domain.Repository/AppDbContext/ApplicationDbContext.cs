@@ -1,8 +1,8 @@
+using Microsoft.EntityFrameworkCore;
 using SahibindenClone.Domain.Entities;
 using SahibindenClone.Domain.Enums;
-using Microsoft.EntityFrameworkCore;
 
-namespace SahibindenClone.Domain.AppDbContext;
+namespace SahibindenClone.Domain.Repository.AppDbContext;
 
 public class ApplicationDbContext : DbContext
 {
