@@ -4,7 +4,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59C95545-AB5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Domain", "src\SahibindenClone.Domain\SahibindenClone.Domain.csproj", "{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Core", "src\SahibindenClone.Core\SahibindenClone.Core.csproj", "{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SahibindenClone.Core", "src\SahibindenClone.Core\SahibindenClone.Core.csproj", "{72E69806-F6ED-4961-A549-FD217FF61BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
-		{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
+		{72E69806-F6ED-4961-A549-FD217FF61BFF} = {59C95545-AB59-4FD0-B3DA-78820A3B6453}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8962AB11-BEDD-4D38-8EFD-3DF9C1143BB2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E209FE67-ED6A-4D54-9716-D9C9BFE6DF2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E69806-F6ED-4961-A549-FD217FF61BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
